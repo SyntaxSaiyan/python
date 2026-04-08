@@ -1,0 +1,40 @@
+# Kindle clippings file (contains personal reading notes)
+My Clippings.txt
+
+# Generated PDF exports
+pdf_exports/
+*.pdf
+
+# Text exports
+exports/
+*.txt
+
+# Web app files (not needed for simple version)
+web_app.py
+templates/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
