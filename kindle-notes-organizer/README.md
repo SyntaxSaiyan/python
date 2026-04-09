@@ -15,7 +15,20 @@ Instead of losing your highlights to the 100-character limit, this tool:
 
 ## Easy Setup (3 Simple Steps)
 
-### Step 1: Install the Tool
+### Step 1: Get the Tool
+
+**Option A: Quick & Easy (No Git Required)**
+1. Go to: https://github.com/SyntaxSaiyan/python/tree/main/kindle-notes-organizer
+2. Click on `kindle_to_pdf.py` and copy the code
+3. Create 1 new text file on your computer:
+   - `kindle_to_pdf.py` (paste the code)
+4. Save it in a new folder called "kindle-notes"
+
+**Option B: GitHub Method**
+1. Open terminal and run: `git clone https://github.com/SyntaxSaiyan/python.git`
+2. Navigate to: `cd python/kindle-notes-organizer`
+
+### Step 2: Install the Tool
 
 Open your computer's terminal/command prompt and run:
 ```bash
@@ -24,18 +37,18 @@ pip install reportlab
 
 *Don't have pip? No worries! Just search "install pip" for your computer type (Mac/Windows).*
 
-### Step 2: Get Your Kindle Notes
+### Step 3: Get Your Kindle Notes
 
 1. **Connect your Kindle** to your computer with the USB cable
 2. **Open the Kindle folder** like you would any USB drive
 3. **Find the "documents" folder** inside your Kindle
 4. **Copy "My Clippings.txt"** to the same folder as these scripts
 
-### Step 3: Create Your PDFs
+### Step 4: Create Your PDFs
 
 Run this simple command:
 ```bash
-python3 pdf_exporter.py "My Clippings.txt" --all
+python3 kindle_to_pdf.py "My Clippings.txt" --all
 ```
 
 That's it! You'll find beautiful PDF files in the new `pdf_exports/` folder.
@@ -50,7 +63,7 @@ That's it! You'll find beautiful PDF files in the new `pdf_exports/` folder.
 ## Need Help with One Book Only?
 
 ```bash
-python3 pdf_exporter.py "My Clippings.txt" --book "Book Title (Author)"
+python3 kindle_to_pdf.py "My Clippings.txt" --book "Book Title (Author)"
 ```
 
 ## Questions?
